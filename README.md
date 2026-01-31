@@ -60,3 +60,24 @@ The application provides a simple drawing canvas where users can input handwritt
 ```bash
 git clone https://github.com/Kartik-Kumar9/Handwritten-Digit-Recognizer-.git
 cd Handwritten-Digit-Recognizer-
+
+```
+
+### 2️. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the GUI
+```bash
+python main.py
+```
+---
+
+## Notes
+
+The model is trained on clean datasets, so prediction accuracy may vary depending on handwriting style.
+
+Certain digits such as 6 and 9 or 2 and 3 may be confused due to similarity in handwritten form.
+
+TensorFlow GPU acceleration is not supported natively on Windows; training was performed using CPU.
